@@ -1,0 +1,121 @@
+
+    
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    }
+    
+    /* Centering the content */
+    body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    }
+    
+    .container {
+    text-align: center;
+    }
+    
+    /* Header style */
+    header h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+    }
+    
+    /* Login box style */
+    .login-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    animation: fadeIn 1s ease-out;
+    }
+    
+    /* Label style */
+    label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #333;
+    font-size: 0.9em;
+    }
+    
+    /* Input field style */
+    input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border 0.3s ease;
+    }
+    
+    input:focus {
+    border-color: #333;
+    outline: none;
+    }
+    
+    /* Button style */
+    button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+    background-color: #555;
+    }
+    
+    /* Error message style */
+    .error {
+    color: red;
+    font-size: 0.9em;
+    display: none;
+    margin-top: 10px;
+    }
+    
+    /*login button*/
+    #login-button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    /* Login link style */
+    .login-link {
+    display: none;
+    font-size: 1.1em;
+    color: #333;
+    margin-top: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    }
+    
+    .login-link:hover {
+    color: #555;
+    }
+    
+    /* Animation for the login box */
+    @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    }
